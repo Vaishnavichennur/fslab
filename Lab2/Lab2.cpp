@@ -1,6 +1,4 @@
 #include <iostream>
-
-
 #include <fstream>
 using namespace std;
 string buffer;
@@ -8,9 +6,9 @@ string buffer;
 
 class student{
 		string name;
-	string usn;
-	string branch;
-	string sem;
+		string usn;
+		string branch;
+		string sem;
 public:
 
 	void readstudentfromconsole(){
@@ -20,18 +18,18 @@ public:
 	getline(cin,name);
 	cin.clear();
 	cin.ignore(255,'\n');
-	cout<<"\nenter usn"<<endl;
+	cout<<"\n enter usn"<<endl;
 	cin>>usn;
 	cout<<"\nEnter branch"<<endl;
 	cin>>branch;
-	cout<<"\nenter sem"<<endl;
+	cout<<"\n enter sem"<<endl;
 	cin>>sem;
 	}
 	void show(){
-		cout<<"\nname : "<<name;
-		cout<<"\nusn : "<<usn;
-		cout<<"\nbranch : "<<branch;
-		cout<<"\nsem : "<<sem;
+		cout<<"\n name : "<<name;
+		cout<<"\n usn : "<<usn;
+		cout<<"\n branch : "<<branch;
+		cout<<"\n sem : "<<sem;
 	}
 	void pack(){
 		int i;
